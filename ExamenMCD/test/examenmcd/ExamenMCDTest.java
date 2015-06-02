@@ -18,6 +18,12 @@ import static org.junit.Assert.*;
  * @author dcuerdogarcia
  */
 
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+
 public class ExamenMCDTest {
     
     public ExamenMCDTest() {
