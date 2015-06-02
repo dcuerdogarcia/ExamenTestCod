@@ -8,17 +8,26 @@ package examenmcd;
 
 /**
  *
- * @author dcuerdogarcia
+ * @author damian
  */
-
 public class Calculo {
 
     private int numero1;
     private int numero2;
     private String mensajeResultado = "";
 
-    public Calculo() {
+   public Calculo() {
     }
+
+    public Calculo(int numero1, int numero2, String mensajeResultado) {
+        this.numero1 = numero1;
+        this.numero2 = numero2;
+    }
+
+    Calculo(int i, int i0) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 
     //setters
     public void setNumero1(int numero) {
@@ -78,5 +87,6 @@ public class Calculo {
             mensajeResultado = "Error en cálculo de MCD: " + e.getMessage();
             return 0;
         }
+        
     }
 }
